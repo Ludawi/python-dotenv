@@ -21,4 +21,8 @@ class GetEnv():
                 lookup_table[var] = value
             print(lookup_table)
             return lookup_table
-        create_lookup(lines)
+
+        self.lib= create_lookup(lines)
+
+        def __str__(self):
+            return self.lib[self.key]
