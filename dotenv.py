@@ -19,10 +19,10 @@ class GetEnv():
                 value = value.replace("'",'')
 
                 lookup_table[var] = value
-            print(lookup_table)
             return lookup_table
 
         self.lib= create_lookup(lines)
 
         def __str__(self):
             return self.lib[self.key]
+
