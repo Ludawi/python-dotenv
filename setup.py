@@ -5,7 +5,7 @@ setup(
   packages = ['simple_dotenv'],
   version = '0.1.1',
   license='MIT',
-  description = 'TYPE YOUR DESCRIPTION HERE',
+  description = 'simple retrieval of environment vars in .env files',
   author = 'Ludawi',
   author_email = 'code.ludawi@gmail.com',
   url = 'https://github.com/ludawi/python-dotenv',
@@ -15,7 +15,7 @@ setup(
   classifiers=[
     'Development Status :: 4 - Beta',      
     'Intended Audience :: Developers',
-    'Topic :: Software Development :: Tools',
+    'Topic :: Software Development :: Build Tools',
     'License :: OSI Approved :: MIT License',
     'Programming Language :: Python :: 3',
     'Programming Language :: Python :: 3.5',

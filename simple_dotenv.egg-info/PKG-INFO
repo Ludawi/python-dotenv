@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: simple-dotenv
+Version: 0.1.1
+Summary: simple retrieval of environment vars in .env files
+Home-page: https://github.com/ludawi/python-dotenv
+Download-URL: https://github.com/Ludawi/python-dotenv/archive/refs/tags/v0.1.1.tar.gz
+Author: Ludawi
+Author-email: code.ludawi@gmail.com
+License: MIT
+Keywords: env,dotenv,simple
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE.txt

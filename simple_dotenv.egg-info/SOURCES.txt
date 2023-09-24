@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+simple_dotenv/__init__.py
+simple_dotenv/simple_dotenv.py
+simple_dotenv.egg-info/PKG-INFO
+simple_dotenv.egg-info/SOURCES.txt
+simple_dotenv.egg-info/dependency_links.txt
+simple_dotenv.egg-info/top_level.txt
