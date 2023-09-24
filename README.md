@@ -26,7 +26,7 @@ text = str(env)
 ## Example
 
 ```python
-from dotenv import GetEnv
+from simple_dotenv import GetEnv
 
 host = GetEnv('HOST')
 token = GetEnv('TOKEN')
