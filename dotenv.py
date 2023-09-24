@@ -23,8 +23,5 @@ class GetEnv():
 
         self.lib= create_lookup(lines)
 
-        def __str__(self):
-            return str(self.lib[self.key])
-
-lol = GetEnv('HOST')
-print(lol)
+    def __str__(self):
+        return self.lib[self.key]
