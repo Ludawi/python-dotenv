@@ -17,7 +17,7 @@ from dotenv import GetEnv
 env = GetEnv('ENV_VARIABLE_KEY')
 ```
 
-3. Access the values of ypur .env file using strings if needed.
+3. Access the values of your .env file using strings if needed.
 
 ```python
 text = str(env)
