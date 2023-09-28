@@ -14,10 +14,10 @@ from dotenv import GetEnv
 2. Create an instance of the GetEnv class, providing the environment variable key you want to access as an argument. Note that `GetEnv` only searches for the .env file in the current directory.
 
 ```python
-env = GetEnv('ENV_VRIABLE_KEY')
+env = GetEnv('ENV_VARIABLE_KEY')
 ```
 
-3. Access the values of ypur .env file using strings if needed.
+3. Access the values of your .env file using strings if needed.
 
 ```python
 text = str(env)
