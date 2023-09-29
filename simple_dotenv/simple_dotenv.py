@@ -1,10 +1,20 @@
+import os
 class GetEnv():
     def __init__(self, key:str):
         self.key = key
 
         lines = []
+        filename = '/.env'
 
-        with open('.env', "r") as file:
+        def get_dir(filename):
+            path = os.path.dirname(os.path.realpath(__file__))
+            filepath = path
+            filepath = str(filepath)
+            filepath = filepath + filename
+            return filepath
+
+
+        with open(get_dir(filename), "r") as file:
             for line in file:
                 line = line.rstrip()
                 lines.append(line)
@@ -25,3 +35,5 @@ class GetEnv():
 
     def __str__(self):
         return self.lib[self.key]
+
+print(GetEnv('HOST'))
