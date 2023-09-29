@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: simple-dotenv
-Version: 0.1.3
+Version: 0.1.4
 Summary: simple retrieval of environment vars in .env files
 Home-page: https://github.com/ludawi/python-dotenv
 Download-URL: https://github.com/Ludawi/python-dotenv/archive/refs/tags/v0.1.2.tar.gz

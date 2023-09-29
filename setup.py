@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
   name = 'simple_dotenv',
   packages = ['simple_dotenv'],
-  version = '0.1.3',
+  version = '0.1.4',
   license='MIT',
   description = 'simple retrieval of environment vars in .env files',
   author = 'Ludawi',
